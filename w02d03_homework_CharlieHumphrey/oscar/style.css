@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     margin: 5%;
+    font-weight: 200
 }
 
 .header{
@@ -14,6 +15,7 @@ body {
 .header> h1, h3, span {
     display: inline;
     padding: 20px;
+    font-weight: 200;
 }
 
 .header > h1 {
@@ -23,22 +25,36 @@ body {
 
 .header > h3 {
     color: lightgrey;
-    
-    
 }
 
 span {
-    
+    color: black;
+}
+
+h3 {
+    color: lightgrey;
 }
 
 .blue{
     background:#163EC6; 
     color: white;
     margin: auto 0;
-    padding: 5%;
+    padding: 7%;
     text-align: left;
     margin-bottom: 15px;
     clear: both;
+    
+}
+
+.blue > h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    line-height: 20px;
+}
+
+.blue > h2 {
+    font-weight: 200;
+    line-height: 40px;
 }
 
 .top {
@@ -61,6 +77,12 @@ span {
     max-width: 290px;
 }
 
+.columns > p {
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 25px;
+}
+
 .wrap {
     margin: 0 auto;
     display: flex; 
@@ -76,7 +98,13 @@ text-align: center;
 
 }
 .middle > h1 {
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+
+.middle > h2 {
+    font-weight: 200;
+    color: lightgrey;
 }
 
 .you {
@@ -104,9 +132,17 @@ text-align: center;
     float: left;
     vertical-align: top;
     max-width: 37%;
-    text-align: center;
+    text-align: left;
     height: 230px;
-    padding: em;
+    font-size: 14px;
+}
+
+.footer > h3 {
+    color: black;
+}
+
+.footer > p {
+    color: lightgrey;
 }
 
 .learn {
@@ -114,9 +150,13 @@ text-align: center;
     margin: 0 auto;
     display: flex; 
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     border: 1px solid lightgrey;
     border-radius: 3px;
     color: lightgrey;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
